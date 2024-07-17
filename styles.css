@@ -31,17 +31,17 @@ body,html{
     align-items: center;
     img{
       /* height: 150px; */
-      height: 150px;
+      height: 75px;
       width: auto;
     }
     p{
       font-family: nord;
       margin: 0 0;
-      font-size: 5rem;
+      font-size: 3rem;
     }
   }
   p{
-    font-size: 1rem;
+    font-size: 0.75rem;
     margin-top: auto;
     color: white;
   }
@@ -56,13 +56,13 @@ main{
    > p{
     max-width: 70ch; 
     font-weight: 600;
-    font-size: 1.75em;
-    padding-left: 100px;
-    margin-top: 100px ;
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-top: 20px ;
   }
   > p + p{
     margin-top: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
   }
   form{
     section{
@@ -70,33 +70,33 @@ main{
       background-color: white;
       line-height: 1.5;
       box-shadow: 7px 5px 5px 5px #e1e2e3;
-      padding: 100px 0px;
+      padding: 10px 0px;
        p{
         color: #1f2937;
-        padding:0px 100px;
+        padding:0px 30px;
         margin: 0px;
-        font-size:2em;
+        font-size:1.5rem;
         margin-bottom: 25px;
       }
       .input-field{
         display: flex;
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 30px;
         label{
-          font-size: 1.5rem;
+          font-size: 1rem;
         }
       }
       input{
         outline:none;
         border: 2px solid #e1e2e3;
-        font-size: 1.25rem;
+        font-size: 1rem;
         border-radius: 2px;
         width: 25ch;
         overflow: scroll;
         padding:0px;
       }
       fieldset{
-        margin: 20px 0px;
+        margin: 10px 0px;
         border: 0px;
         padding:0px;
         display: flex;
@@ -119,17 +119,18 @@ main{
     }
   button{
     margin-top: 100px;
-    padding:20px;
-    font-size: 1rem;
+    padding:10px;
+    font-size: 0.75rem;
     background-color: #596D48;
     color: white;
     border-radius: 10px;
     border: 0px;
-    margin-left: 100px;
+    margin-left: 20px;
     box-shadow: 0px 5px 6px 1px #e1e2e3;
   }
   p{
-    margin:50px 100px;
+    margin:50px 20px;
+    font-size: 0.75rem;
     span{
       font-weight: 700;
       color: #596D48;
