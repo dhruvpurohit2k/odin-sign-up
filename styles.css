@@ -10,7 +10,7 @@ body,html{
   height: 100%;
   display: flex;
   margin: 0px 0px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #side-image{
   display: flex;
@@ -31,38 +31,38 @@ body,html{
     align-items: center;
     img{
       /* height: 150px; */
-      height: 75px;
+      height: calc(70px + 5vw);
       width: auto;
     }
     p{
       font-family: nord;
       margin: 0 0;
-      font-size: 3rem;
+      /* font-size: 3rem; */
+      font-size: calc(2.5rem + 5vw);
     }
   }
   p{
-    font-size: 0.75rem;
+    font-size: calc(.5rem+1vh);
     margin-top: auto;
     color: white;
   }
 }
 
 main{
-  box-sizing: border-box;
-  padding-top: 20px;
+  /* padding-top: calc(5px + 10vh); */
   height: 100%;
   width: 100%;
   background-color: #f9fafb;
    > p{
-    max-width: 70ch; 
+    padding-right: 20px;
     font-weight: 600;
-    font-size: 1rem;
-    margin-left: 20px;
-    margin-top: 20px ;
+    font-size: calc(0.25rem + 2vh);
+    margin-left: calc(10px + 3vw);
+    margin-top: calc(20px + 10vh) ;
   }
   > p + p{
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: calc(10px + 1vh);
   }
   form{
     section{
@@ -70,35 +70,34 @@ main{
       background-color: white;
       line-height: 1.5;
       box-shadow: 7px 5px 5px 5px #e1e2e3;
-      padding: 10px 0px;
        p{
         color: #1f2937;
-        padding:0px 30px;
-        margin: 0px;
-        font-size:1.5rem;
-        margin-bottom: 25px;
+        /* padding:0px 30px; */
+        margin-left: calc(10px + 3vw);
+        font-size:calc(1.15rem + 0.75vw);
+        margin-bottom: calc(5px + 0.5vh);
       }
       .input-field{
         display: flex;
         flex-direction: column;
-        margin-left: 30px;
+        margin-left: calc(10px + 2vw);
         label{
-          font-size: 1rem;
+         font-size: calc(0.75rem + 1vh);
         }
       }
       input{
         outline:none;
         border: 2px solid #e1e2e3;
-        font-size: 1rem;
+        font-size: calc(0.75rem + 1vh);
         border-radius: 2px;
-        width: 25ch;
+        width: calc(17ch + 7vw);
         overflow: scroll;
         padding:0px;
       }
       fieldset{
         margin: 10px 0px;
         border: 0px;
-        padding:0px;
+        padding-right:10px;
         display: flex;
         align-items: center;
 
@@ -118,19 +117,19 @@ main{
     }
     }
   button{
-    margin-top: 100px;
+    margin-top: calc(25px + 2vh);
     padding:10px;
-    font-size: 0.75rem;
+    font-size: calc(.75rem + 0.5vh);
     background-color: #596D48;
     color: white;
     border-radius: 10px;
     border: 0px;
-    margin-left: 20px;
+    margin-left: calc(10px + 2vw);
     box-shadow: 0px 5px 6px 1px #e1e2e3;
   }
   p{
-    margin:50px 20px;
-    font-size: 0.75rem;
+    margin:calc(25px + 2vh) calc(10px + 3vw);
+    font-size: calc(.75rem + 0.5vh);
     span{
       font-weight: 700;
       color: #596D48;
